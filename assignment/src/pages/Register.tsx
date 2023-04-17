@@ -80,6 +80,7 @@ const Register = () => {
             label="Password"
             name="password"
             register={register}
+            type="password"
             required
           />
           {errors.password && (
