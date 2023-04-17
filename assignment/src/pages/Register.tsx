@@ -86,15 +86,7 @@ const Register = () => {
             <span style={{ color: "red" }}>Email required</span>
           )}
 
-          <Input
-            label="confirmPassword"
-            name="confirmPassword"
-            register={register}
-            required
-          />
-          {errors.confirmPassword && (
-            <span style={{ color: "red" }}>confirmPassword required</span>
-          )}
+          
         </div>
         <Button>Register</Button>
       </div>
