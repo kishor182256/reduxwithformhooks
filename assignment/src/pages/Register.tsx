@@ -83,7 +83,7 @@ const Register = () => {
             required
           />
           {errors.password && (
-            <span style={{ color: "red" }}>Email required</span>
+            <span style={{ color: "red" }}>Password required</span>
           )}
 
           
