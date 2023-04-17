@@ -54,7 +54,7 @@ const Register = () => {
       >
         <div>
           <Input
-            label="firstname"
+            label="Firstname"
             name="firstname"
             register={register}
             required
@@ -64,7 +64,7 @@ const Register = () => {
           )}
 
           <Input
-            label="lastname"
+            label="Lastname"
             name="lastname"
             register={register}
             required
@@ -73,11 +73,11 @@ const Register = () => {
             <span style={{ color: "red" }}>lastname required</span>
           )}
 
-          <Input label="email" name="email" register={register} required />
+          <Input label="Email" name="email" register={register} required />
           {errors.email && <span style={{ color: "red" }}>Email required</span>}
 
           <Input
-            label="password"
+            label="Password"
             name="password"
             register={register}
             required

@@ -20,12 +20,13 @@ const Input: FC<InputProps> = ({
 }) => {
   return (
     <div>
-      <label htmlFor={name}>{label}</label>
+      <label style={{margin:'10px'}} htmlFor={name}>{label}</label>
       <input
         type={type}
         id={name}
         {...register(name, { required })}
         defaultValue={defaultValue}
+        style={{padding:'5px',margin:'10px'}}
       />
     </div>
   );

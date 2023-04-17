@@ -51,7 +51,7 @@ const Login = () => {
           flexDirection: "column",
         }}
       >
-        <Input label="email" name="email" register={register} required />
+        <Input label="Email" name="email" register={register} required />
         {errors.email && <span style={{ color: "red" }}>Email required</span>}
         <Input
           label="Password"
